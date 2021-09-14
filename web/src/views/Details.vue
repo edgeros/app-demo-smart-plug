@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="about safe-area-top">
     <van-nav-bar title="设备详情" left-arrow @click-left="goBack()" />
     <h4 class="font">{{ plug.alias }}</h4>
     <span class="font">{{ plug.devid }}</span>

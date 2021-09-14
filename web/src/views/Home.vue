@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home safe-area-top">
     <van-nav-bar title="设备列表" safe-area-inset-top />
     <van-pull-refresh
       safe-area-inset-top
