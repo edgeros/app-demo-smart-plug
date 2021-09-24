@@ -1,6 +1,6 @@
 <template>
-  <div class="about safe-area-top">
-    <van-nav-bar title="设备详情" left-arrow @click-left="goBack()" />
+  <div class="about">
+    <van-nav-bar title="设备详情" left-arrow @click-left="goBack()" class="safe-area-top"/>
     <h4 class="font">{{ plug.alias }}</h4>
     <span class="font">{{ plug.devid }}</span>
     <van-row class="row" justify="center" align="center" type="flex">

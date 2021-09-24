@@ -1,8 +1,7 @@
 <template>
-  <div class="home safe-area-top">
-    <van-nav-bar title="设备列表" safe-area-inset-top />
+  <div class="home">
+    <van-nav-bar title="设备列表" class="safe-area-top"/>
     <van-pull-refresh
-      safe-area-inset-top
       style="min-height: 100vh"
       v-model="isLoading"
       @refresh="onRefresh"
